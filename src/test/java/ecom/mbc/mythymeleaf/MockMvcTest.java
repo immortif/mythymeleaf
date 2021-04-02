@@ -31,7 +31,7 @@ public class MockMvcTest {
         // .andExpect(content().string(containsString("index")));
         System.out.println("----------------------------------------------------------");
 
-        ResultActions ras = mvc.perform(MockMvcRequestBuilders.get("/index").accept(MediaType.APPLICATION_JSON));
+        // ResultActions ras = mvc.perform(MockMvcRequestBuilders.get("/index").accept(MediaType.APPLICATION_JSON));
         System.out.println("----------------------------------------------------------");
 
     }
