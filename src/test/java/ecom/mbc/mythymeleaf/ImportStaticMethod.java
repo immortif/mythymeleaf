@@ -8,9 +8,8 @@ public class ImportStaticMethod {
 
     @Test
     public void staticMethodTest() {
-        // StaticClass staticClass = new StaticClass();
-        System.out.println(staticClass.getName() + " new object calls static method");
-        System.out.println(StaticClass.getName() + " not import static");
+        System.out.println(getName() + " new object calls static method");
+        System.out.println(getName() + " not import static");
         System.out.println();
     }
 
