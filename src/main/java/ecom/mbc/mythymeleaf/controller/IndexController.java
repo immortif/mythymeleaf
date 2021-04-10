@@ -32,6 +32,6 @@ public class IndexController {
         user.setBirthday(sdf.parse("1987-02-19 11:11:11"));
 
         model.addAttribute("user", user);
-        return "indexsh";
+        return "index";
     }
 }
