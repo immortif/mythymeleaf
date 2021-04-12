@@ -24,6 +24,7 @@ public class MockMvcTest {
     }
 
     @Test
+    @SuppressWarnings("deprecation")
     public void getHello() throws Exception {
 
         System.out.println("----------------------------------------------------------");
